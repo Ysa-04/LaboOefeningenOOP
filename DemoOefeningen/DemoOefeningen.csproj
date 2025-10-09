@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\H10-Birthday\H10-Birthday.csproj" />
+    <ProjectReference Include="..\H10-Clock\H10-Clock.csproj" />
+    <ProjectReference Include="..\H10-DayOfTheWeek\H10-DayOfTheWeek.csproj" />
+  </ItemGroup>
+
+</Project>
