@@ -21,5 +21,13 @@ namespace H14_PostOffice
 			}
 		}
 
+		private byte? duration;
+		public byte? Duration
+        {
+			get { return duration; }
+			set { duration = value; }
+		}
+
+
 	}
 }
