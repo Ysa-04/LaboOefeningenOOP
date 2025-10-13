@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H10-DayOfTheWeek", "H10-Day
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H13-PhoneBookNameNumber", "H13-PhoneBookNameNumber\H13-PhoneBookNameNumber.csproj", "{4B44EAD6-CAD5-4DAB-AE5D-792841705DC2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H14-PostOffice", "H14-PostOffice\H14-PostOffice.csproj", "{DD83D322-C5D6-4995-A493-03D0B3319A9E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4B44EAD6-CAD5-4DAB-AE5D-792841705DC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B44EAD6-CAD5-4DAB-AE5D-792841705DC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B44EAD6-CAD5-4DAB-AE5D-792841705DC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD83D322-C5D6-4995-A493-03D0B3319A9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD83D322-C5D6-4995-A493-03D0B3319A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD83D322-C5D6-4995-A493-03D0B3319A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD83D322-C5D6-4995-A493-03D0B3319A9E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

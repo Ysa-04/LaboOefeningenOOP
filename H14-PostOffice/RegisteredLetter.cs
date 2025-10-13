@@ -9,7 +9,7 @@ namespace H14_PostOffice
     internal class RegisteredLetter
     {
 		private double distance;
-		public double Distance
+		public virtual double Distance
 		{
 			get { return distance; }
 			set 
@@ -18,16 +18,40 @@ namespace H14_PostOffice
 				{
                     distance = value;
                 }
+				else
+				{
+                    Console.WriteLine("Waarde moet groter zijn dan 0.");
+				}
 			}
 		}
 
 		private byte? duration;
-		public byte? Duration
+		public virtual byte? Duration
         {
-			get { return duration; }
-			set { duration = value; }
+			get 
+			{
+				return (byte)Math.Ceiling(distance/100); 
+			}
+			
 		}
 
+		private double price;
+		public virtual double Price
+		{
+			get 
+			{
+                if (distance < 100)
+                {
+                    price = 15;
+                }
+                else
+                {
+					double extra = Math.Ceiling((distance - 100) / 100);
+					price = 15 + extra * 10;
 
+                }
+                return price; 
+			}	
+		}
 	}
 }
