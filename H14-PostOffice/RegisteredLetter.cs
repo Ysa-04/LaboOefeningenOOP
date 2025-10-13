@@ -24,9 +24,7 @@ namespace H14_PostOffice
 				}
 			}
 		}
-
-		private byte? duration;
-		public virtual byte? Duration
+		public virtual byte Duration
         {
 			get 
 			{
@@ -34,13 +32,11 @@ namespace H14_PostOffice
 			}
 			
 		}
-
-		private double price;
 		public virtual double Price
 		{
 			get 
 			{
-                if (distance < 100)
+                if (Distance < 100)
                 {
                     return 15;
                 }
