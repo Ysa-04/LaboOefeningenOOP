@@ -30,7 +30,7 @@ namespace H14_PostOffice
         {
 			get 
 			{
-				return (byte)Math.Ceiling(distance/100); 
+				return (byte)Math.Ceiling(Distance/100); 
 			}
 			
 		}
@@ -42,15 +42,14 @@ namespace H14_PostOffice
 			{
                 if (distance < 100)
                 {
-                    price = 15;
+                    return 15;
                 }
                 else
                 {
-					double extra = Math.Ceiling((distance - 100) / 100);
-					price = 15 + extra * 10;
+					double extra = Math.Ceiling((Distance - 100) / 100);
+					return 15 + extra * 10;
 
                 }
-                return price; 
 			}	
 		}
 	}
