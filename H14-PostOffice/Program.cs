@@ -10,16 +10,20 @@
             do
             {
                 
-                Console.WriteLine("Wil je een brief toevoegen (ja/nee)");
+                Console.WriteLine("Wil je een brief verzenden? (ja/nee)");
                 input = Console.ReadLine();
+                Console.WriteLine();
                 if (input == "ja")
                 {
-                    Console.WriteLine("1. standaard");
-                    Console.WriteLine("2. internationaal");
-                    Console.WriteLine("3. stop");
+                    Console.WriteLine("Kies je tarief:");
+                    Console.WriteLine("\t1. Standaard");
+                    Console.WriteLine("\t2. Internationaal");
+                    Console.WriteLine("\t3. Stop");
                     int choice = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine();
                     Console.WriteLine("Hoe ver moet deze brief gaan?");
                     int distance = Convert.ToInt32(Console.ReadLine());
+                    Console.WriteLine();
                     switch (choice)
                     {
                         case 1:
@@ -37,7 +41,6 @@
                             break;
                         default:
                             break;
-
                     }
                 }
                 else
@@ -48,6 +51,7 @@
             for (int i = 0; i < letters.Count; i++)
             {
                 Console.WriteLine($"Brief {i + 1}: \n\tafstand: {letters[i].Distance}km\n\treistijd: {letters[i].Duration}dagen\n\tprijs: {letters[i].Price}euro");
+                Console.WriteLine();
             }
         }
     }

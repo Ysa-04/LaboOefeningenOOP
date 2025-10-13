@@ -164,7 +164,6 @@ namespace DemoOefeningen
                                 Console.WriteLine();
                                 break;                           
                         }
-
                         break;
                     default:
                         Console.ForegroundColor = ConsoleColor.Red;
