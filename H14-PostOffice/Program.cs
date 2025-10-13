@@ -1,8 +1,8 @@
 ﻿namespace H14_PostOffice
 {
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             string input = " ";
             List<RegisteredLetter> letters = new List<RegisteredLetter>();

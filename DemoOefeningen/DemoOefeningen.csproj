@@ -11,6 +11,8 @@
     <ProjectReference Include="..\H10-Birthday\H10-Birthday.csproj" />
     <ProjectReference Include="..\H10-Clock\H10-Clock.csproj" />
     <ProjectReference Include="..\H10-DayOfTheWeek\H10-DayOfTheWeek.csproj" />
+    <ProjectReference Include="..\H13-PhoneBookNameNumber\H13-PhoneBookNameNumber.csproj" />
+    <ProjectReference Include="..\H14-PostOffice\H14-PostOffice.csproj" />
   </ItemGroup>
 
 </Project>
