@@ -24,8 +24,7 @@ namespace DemoOefeningen
                 Console.WriteLine("5. Overerving");
                 Console.WriteLine("---------------------------------");
                 Console.WriteLine("20. Stop programma");
-                Console.WriteLine();
-                
+                Console.WriteLine();               
                 Console.Write("Maak een keuze: ");
                 int choice = Convert.ToInt32(Console.ReadLine());
                 switch (choice)
