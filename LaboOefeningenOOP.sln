@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H14-PostOffice", "H14-PostO
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H10-TicksSince", "H10-TicksSince\H10-TicksSince.csproj", "{06C55989-1A99-4CBD-A456-D7B61CB62E7C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H10-LeapYearCount", "H10-LeapYearCount\H10-LeapYearCount.csproj", "{35253CEC-3131-4E4B-B03E-CA9ABE8CDD5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{06C55989-1A99-4CBD-A456-D7B61CB62E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06C55989-1A99-4CBD-A456-D7B61CB62E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06C55989-1A99-4CBD-A456-D7B61CB62E7C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35253CEC-3131-4E4B-B03E-CA9ABE8CDD5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35253CEC-3131-4E4B-B03E-CA9ABE8CDD5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35253CEC-3131-4E4B-B03E-CA9ABE8CDD5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35253CEC-3131-4E4B-B03E-CA9ABE8CDD5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
