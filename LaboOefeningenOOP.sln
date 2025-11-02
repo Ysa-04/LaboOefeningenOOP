@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H13-PhoneBookNameNumber", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H14-PostOffice", "H14-PostOffice\H14-PostOffice.csproj", "{DD83D322-C5D6-4995-A493-03D0B3319A9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "H10-TicksSince", "H10-TicksSince\H10-TicksSince.csproj", "{06C55989-1A99-4CBD-A456-D7B61CB62E7C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,8 +47,15 @@ Global
 		{DD83D322-C5D6-4995-A493-03D0B3319A9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD83D322-C5D6-4995-A493-03D0B3319A9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD83D322-C5D6-4995-A493-03D0B3319A9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06C55989-1A99-4CBD-A456-D7B61CB62E7C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06C55989-1A99-4CBD-A456-D7B61CB62E7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06C55989-1A99-4CBD-A456-D7B61CB62E7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06C55989-1A99-4CBD-A456-D7B61CB62E7C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A964E18-B264-4C9B-8608-2E95EF17F198}
 	EndGlobalSection
 EndGlobal
