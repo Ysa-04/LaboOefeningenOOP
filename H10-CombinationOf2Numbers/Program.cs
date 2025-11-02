@@ -85,7 +85,7 @@
                 {
                     Console.WriteLine("Fout!");
                 }
-                return Math.Round(Convert.ToDouble(Number1) / Number2);
+                return Math.Round(Convert.ToDouble(Number1) / Number2, 2);
             }
         }
     }
